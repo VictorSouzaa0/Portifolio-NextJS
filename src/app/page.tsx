@@ -9,9 +9,9 @@ export default function Home() {
       <article className="flex justify-center  bg-gray-900 h-150 font-bold text-sky-50">
         <section className="flex-row justify-center text-3xl p-40 ">
           <h1>HI, I'm Victor Souza!</h1>
-          <div className="flex gap-3">
+          <div className="flex-wrap gap-3">
             <h1 className=" text-red-600  text-5xl">Full Stack</h1>
-            <h1 className=" flex text-5xl">Developer</h1>
+            <h1 className=" flex- text-5xl">Developer</h1>
           </div>
           <br />
           <p className="text-2xl">Currently studying to become a full stack developer,and <br />
