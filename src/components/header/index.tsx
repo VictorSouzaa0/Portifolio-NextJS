@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function Header(){
     return(
-            <header className="bg-gray-900 px-10 py-5  font-bold">
+            <header className="bg-gray-900 px-10 py-4  font-bold">
                 <div className="flex items-center justify-between ">
                     <img  src="/logo.svg" alt="Logo" />
                     <nav className="text-sky-50 flex  gap-10">
