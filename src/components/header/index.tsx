@@ -4,10 +4,10 @@ import Image from "next/image";
 
 export function Header(){
     return(
-            <header className="bg-gray-900 px-10 py-4  font-bold">
-                <div className="flex items-center justify-between ">
+            <header className="bg-gray-900 px-10 py-4 sm:items-center font-bold sm:justify-between  ">
+                <div className=" items-center sm:flex  sm:justify-between ">
                     <img  src="/logo.svg" alt="Logo" />
-                    <nav className="text-sky-50 flex  gap-10">
+                    <nav className="text-sky-50 sm:flex gap-10 text-center ">
                         <Link href="/">
                             <p className="py-1">Home</p>
                         </Link>
