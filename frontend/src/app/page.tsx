@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <TechStack/>
       <article className="sm:flex justify-center  bg-gray-900 h-150 font-bold text-sky-50">
-        <section className="sm:flex-row justify-center text-3xl p-39  ">
+        <section className="sm:flex-row text-3xl p-39">
           <h1>HI, I'm Victor Souza!</h1>
           <div className="flex-wrap gap-3">
             <h1 className=" text-red-600  text-5xl">Full Stack</h1>
